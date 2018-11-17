@@ -31,6 +31,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Take a Photo"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="didTakePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fXe-pc-OC2"/>
                                 </connections>
