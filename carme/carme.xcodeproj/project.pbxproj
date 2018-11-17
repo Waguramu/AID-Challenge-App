@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E6BB5D321A0764000F6A120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6DFDF0219F75FE00FC61D2 /* Assets.xcassets */; };
 		9E6DFDEA219F75FC00FC61D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DFDE9219F75FC00FC61D2 /* AppDelegate.swift */; };
 		9E6DFDEC219F75FC00FC61D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DFDEB219F75FC00FC61D2 /* ViewController.swift */; };
 		9E6DFDEF219F75FC00FC61D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6DFDED219F75FC00FC61D2 /* Main.storyboard */; };
-		9E6DFDF1219F75FE00FC61D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6DFDF0219F75FE00FC61D2 /* Assets.xcassets */; };
-		9E6DFDF4219F75FE00FC61D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6DFDF2219F75FE00FC61D2 /* LaunchScreen.storyboard */; };
 		9E6DFDFF219F75FE00FC61D2 /* carmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DFDFE219F75FE00FC61D2 /* carmeTests.swift */; };
 		9E6DFE0A219F75FE00FC61D2 /* carmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6DFE09219F75FE00FC61D2 /* carmeUITests.swift */; };
+		9E6DFE17219F82BA00FC61D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6DFDF2219F75FE00FC61D2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -229,8 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E6DFDF4219F75FE00FC61D2 /* LaunchScreen.storyboard in Resources */,
-				9E6DFDF1219F75FE00FC61D2 /* Assets.xcassets in Resources */,
+				9E6BB5D321A0764000F6A120 /* Assets.xcassets in Resources */,
+				9E6DFE17219F82BA00FC61D2 /* LaunchScreen.storyboard in Resources */,
 				9E6DFDEF219F75FC00FC61D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,7 +442,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.waguramu.carme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.waguramu.carme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
